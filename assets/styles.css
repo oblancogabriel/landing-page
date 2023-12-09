@@ -49,14 +49,44 @@ header {
 main{
     padding: 80;
     width: 100%;
-    display: flex;
+    /* display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; */
 }
 
-.hero-info {
+.hero {
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
+
+}
+
+.hero-info-text{
+    width: 100%;
+    padding: 5px 50px 5px 0px;
+}
+
+.hero-info-img {
+    width: min-content;
+    padding: 5px 0px 0px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-info-cta :first-child{
+    background-color: #3b65a1;
+    border-radius: 30%;
+    gap: 10px;
+}
+
+.about{
+    width: 100%;
+    background-color: #3b65a1;
+    display: flexbox;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    text-align: center;
 }
