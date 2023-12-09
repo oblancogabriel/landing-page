@@ -77,8 +77,6 @@ main{
 
 .hero-info-cta :first-child{
     background-color: #3b65a1;
-    border-radius: 30%;
-    gap: 10px;
 }
 
 .about{
