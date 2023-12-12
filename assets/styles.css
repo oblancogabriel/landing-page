@@ -49,9 +49,6 @@ header {
 main{
     padding: 80;
     width: 100%;
-    /* display: flex;
-    justify-content: space-between;
-    align-items: center; */
 }
 
 .hero {
@@ -59,32 +56,73 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+    padding: 0px 0px 20px 0px;
 
 }
 
 .hero-info-text{
     width: 100%;
-    padding: 5px 50px 5px 0px;
+    padding: 0px 10px 0px 0px;
+}
+
+.hero-info-text p{
+    font-size: 25px;
+    font-weight: 200;
+}
+
+.hero-info-text p strong{
+    color: #326fc4;
+}
+
+.hero-info-text h2{
+    color: #326fc4;
+    font-size: 30px;
 }
 
 .hero-info-img {
     width: min-content;
-    padding: 5px 0px 0px 10px;
+    padding: 0px 0px 0px 10px;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.hero-info-cta :first-child{
+.hero-info-cta{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+
+.hero-info-cta a{
+    color: white;
+    font-size: 15px;
     background-color: #3b65a1;
+    padding: 1rem;
+    border-radius: 50px;
+    border: none;
+    width: 90%;
+    text-align: center;
 }
 
 .about{
+    color: white;
     width: 100%;
-    background-color: #3b65a1;
-    display: flexbox;
-    align-items: center;
+    height: 35%;
+    display: flex;
     justify-content: center;
-    font-size: 25px;
+    align-items: center;
+    padding: 20% 0;
+    border-radius: 40px;
+}
+
+.about-mision p {
+    color: white;
+    font-size: 30px;
+    width: 50%;
+    font-weight: 200;
+    margin: auto;
     text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
