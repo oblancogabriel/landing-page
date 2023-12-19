@@ -354,5 +354,44 @@ ul, li{
     }
 }
 
-@media (max-width: 576px){
+@media (max-width: 320px){
+    .header{
+        width: 320px;
+        height: 40px;
+        padding: 0px;
+    }
+
+    .navbar{
+        width: 200px;
+    }
+
+    #main{
+        max-width: 320px;
+    }
+
+    .hero{
+        max-width: 320px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        margin: 0;
+    }
+
+    .hero-info-text h2{
+        font-size: 25px;
+    }
+
+    .hero-info-text p{
+        font-size: 18px;
+    }
+
+    .hero-info-img img{
+        width: 450px;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+    }
+
 }
