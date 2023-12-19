@@ -22,6 +22,16 @@ header {
     position: fixed;
 }
 
+.menu-label img{
+    display: none;
+    height: 27px;
+    float: right;
+}
+
+.navbar input{
+    display: none;
+}
+
 .logo{
     height: 90%;
 }
@@ -234,4 +244,115 @@ ul, li{
     font-weight: 200;
     text-align: center;
     padding: 5px 0;
+}
+
+/* Media queries*/
+
+@media (max-width: 992px){
+    header {
+        max-width: 992px;
+        position: fixed;
+        overflow: hidden;
+    }
+
+    .hero{
+        max-width: 992px;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .hero-info-text h2{
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .hero-info-text p{
+        font-size: 32px;
+        text-align: center;
+        gap: 5px;
+        margin: 15px 0px;
+        text-align: justify, center;
+    }
+
+    .hero-info-cta{
+        max-width: 992px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+        margin-left: 45px;
+        margin-bottom: 20px;
+    }
+
+    .hero-info-cta a{
+        font-size: 22px;
+    }
+
+    .hero-info-img,
+    .about{
+        max-width: 900px;
+        max-height: 500px;
+        /* margin-right: 85px; */
+        justify-content: center;
+        align-items:center;
+    }
+
+    .about-mision p {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .info-cards-container {
+        max-width: 992px;
+        justify-content: center;
+        align-items: center;
+        margin: 50px;
+    }
+}
+
+@media (max-width: 768px){
+    .header {
+        max-width: 768px;
+    }
+
+    .info-cards-container{
+        max-width: 768px;
+        margin: 10px;
+        flex-direction: row;
+    }
+
+    .info-cards{
+        width: 200px;
+        height: 100px;
+        padding: 15px;
+        overflow: hidden;
+        gap: 15px;
+    }
+
+    .info-cards img{
+        width: 40px;
+    }
+
+    .info-cards h3{
+        font-size: 15px;
+    }
+
+    .footer-info-img{
+        height: 0.3 rem;
+        padding: 0;
+    }
+
+    .footer-info {
+        padding: 10px;
+    }
+}
+
+@media (max-width: 576px){
 }
