@@ -356,17 +356,24 @@ ul, li{
 
 @media (max-width: 320px){
     .header{
-        width: 320px;
+        max-width: 320px;
         height: 40px;
         padding: 0px;
     }
 
     .navbar{
+        max-width: 320px;
+        display: none;
         width: 200px;
+    }
+
+    .logo{
+        height: 50px;
     }
 
     #main{
         max-width: 320px;
+        padding: 0px 0px;
     }
 
     .hero{
@@ -380,18 +387,135 @@ ul, li{
     }
 
     .hero-info-text h2{
-        font-size: 25px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 320px;
+        width: 240px;
+        font-size: 20px;
+        text-align:center;
     }
 
     .hero-info-text p{
+        margin-top: 5px;
         font-size: 18px;
+        text-align: center;
+    }
+
+    .hero-info-cta{
+        max-width: 320px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .hero-info-cta a{
+        font-size: 15px;
+        width: 250px;
+        margin-left: 15px;
     }
 
     .hero-info-img img{
-        width: 450px;
+        width: 270px;
         align-items: center;
         justify-content: center;
-        margin: 0;
+        margin-right: 17px;
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .about-mision{
+        max-width: 320px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .about-mision p{
+        text-align: center;
+        width: 255px;
+        height: 300px;
+        font-size: 20px;
+        padding: 20px 0px 70px 0px;
+    }
+
+    #info h2 {
+        width: 320px;
+        font-size: 25px;
+        margin: 15px 0;
+    }
+
+    .info-head p {
+        font-size: 20px;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 0 20;
+    }
+
+    .info-cards{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content:first baseline;
+        width: 170px;
+        height: 70px;
+    }
+
+    .info-cards img{
+        width: 30px;
+    }
+
+    .info-cards h2{
+        font-size: 15px;
+    }
+
+    .info-cards p{
+        display: none;
+    }
+
+    #footer{
+        max-width: 320px;
+        height: 50px;
+    }
+
+    .footer-info{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        padding-top: 25px;
+    }
+
+    .footer-info h3{
+        color: white;
+        font-size: 15px;
+        background-color: #3b65a1;
+        padding: 1rem;
+        border-radius: 50px;
+        border: none;
+        width: 250px;
+        text-align: center;
+    }
+
+    .footer-info li{
+        display: none;
+    }
+
+    .footer-info-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-info-img img{
+        max-width: 320px;
+        width: 150px;
     }
 
 }
